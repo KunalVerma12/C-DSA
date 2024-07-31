@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+void poundtors(int p){
+    int currency=p*107;
+    cout<<"PoundtoRupee:"<<currency<<endl;
+}
+void rstopound(int r){
+    float currency1=r*0.0097;
+    cout<<"RupeestoPound:"<<currency1<<endl;
+}
+void rstodollar(int r){
+    float currency2=r*0.012;
+    cout<<"RupeestoDollar:"<<currency2<<endl;
+}
+void dollartors(int d){
+    float currency3=d*83.56;
+    cout<<"DollartoRupees:"<<currency3<<endl;
+}
+void rstoyuan(int r){
+    float currency4=r*0.087;
+    cout<<"RupeestoYuan:"<<currency4<<endl;
+}
+void yuantors(int y){
+    float currency5=y*11.48;
+    cout<<"YuantoRupees:"<<currency5<<endl;
+}
+
+int main() {
+    int r,p,d,y;
+    poundtors(80);
+    rstopound(100);
+    rstodollar(80);
+    dollartors(100);
+    rstoyuan(80);
+    yuantors(100);
+    return 0;
+} 
